@@ -1,0 +1,7 @@
+process:
+  corr_threshold: 0.5   # keep only the columns linked to SalePrice above this
+
+split:
+  test_size: 0.2        # 20% of the houses go to the test set
+  n_bins: 5             # price bins used to stratify the split
+  seed: 42              # same seed = same split every run
