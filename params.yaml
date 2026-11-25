@@ -1,5 +1,5 @@
 process:
-  corr_threshold: 0.5   # keep only the columns linked to SalePrice above this
+  corr_threshold: 0.6   # keep only the columns linked to SalePrice above this
 
 split:
   test_size: 0.2        # 20% of the houses go to the test set
